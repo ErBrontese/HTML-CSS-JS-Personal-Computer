@@ -1,0 +1,894 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("fine.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+
+}
+
+
+
+
+.barra_bassa {
+    position: relative;
+    background-color: rgba(20, 15, 20, 0.9);
+
+
+    border-radius: 5px;
+
+
+    height: 10%;
+    width: 50%;
+
+    bottom: -89%;
+    left: 30%;
+}
+
+
+.contenitore {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    top: 15%;
+    left: 30%;
+    border-radius: 10px;
+    /*Posizionamento del contenitore(Ascisa e ordinata )-->(x,y) */
+
+    cursor: pointer;
+    overflow: hidden;
+    /*Nasconde tutto quello che esce dal contenitore */
+
+}
+
+
+
+
+.top {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    right: 0;
+    background: linear-gradient(45deg, #504b45, #3c3b37);
+    box-sizing: border-box;
+}
+
+
+
+
+
+.text {
+    position: absolute;
+    color: white;
+    top: 29px;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(50, 5, 45, 0.9);
+    border: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: auto;
+
+}
+
+
+.text_Note {
+    position: absolute;
+    color: black;
+    top: 29px;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(212, 216, 20, 0.9);
+    border: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: auto;
+
+}
+
+
+
+
+.text_Dino {
+    position: absolute;
+    color: black;
+    top: 29px;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(255, 255, 254, 1.0);
+    border: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: auto;
+
+}
+
+
+
+.text_Cestino {
+    position: absolute;
+    color: white;
+    top: 29px;
+    width: 100%;
+    height: 85%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow-y: auto;
+
+}
+
+
+.scritta {
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 35%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.buttonred {
+    position: absolute;
+    background-color: red;
+    border: none;
+
+    padding: 7px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    margin-top: 9px;
+    margin-left: 10px;
+
+    cursor: pointer;
+    border-radius: 50%;
+
+
+}
+
+.contenutobottonered {
+
+    position: absolute;
+    font-size: 10px;
+    top: 14%;
+    left: 25%;
+}
+
+
+
+
+.buttonyellow {
+    position: absolute;
+    background-color: yellow;
+    border: none;
+
+    padding: 7px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    margin-top: 9px;
+    margin-left: 30px;
+
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.contenutobottoneyellow {
+
+    position: absolute;
+    top: -25%;
+    left: 30%;
+}
+
+
+
+
+
+
+
+.buttongreen {
+    position: absolute;
+    background-color: rgb(69, 182, 69);
+    border: none;
+
+    padding: 7px;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    margin-top: 9px;
+    margin-left: 50px;
+
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.contenutobottonegreen {
+
+    position: absolute;
+    font-size: 10px;
+    transform: rotate(50deg);
+    top: 5%;
+    left: 20%;
+}
+
+.scritta_left {
+    position: relative;
+    display: inline-block;
+}
+
+.commando {
+    position: relative;
+    display: inline;
+    outline: none;
+    word-break: break-all;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+*/
+.bottone {
+   
+
+    background-image: url("terminal.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size:120%, 120%;
+    border-radius: 10%;
+    border: none;
+    
+
+
+    cursor: pointer;
+    position: absolute;
+
+    bottom: -18%;
+    left: 4%;
+
+   
+    height:150%;
+    width: 10%;
+
+
+    
+}
+
+.bottone>img {
+    height:90%;
+    width:90%;
+}
+
+
+
+/*
+
+
+*/
+.bottone2 {
+   
+
+    background-image: url("icona2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size:100%, 100%;
+    border-radius: 10%;
+    border: none;
+    
+
+
+    cursor: pointer;
+    position: absolute;
+
+    bottom: -18%;
+    left: 20%;
+
+    height:150%;
+    width: 10%;
+
+    
+}
+
+.bottone2>img {
+    height:90%;
+    width:90%;
+}
+/*
+
+*/
+
+.bottone3 {
+   
+
+    background-image: url("trex.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size:100%, 100%;
+    
+    border-top-left-radius: 20px;
+   
+   
+    border:none ;
+
+
+    cursor: pointer;
+    position: absolute;
+
+    bottom: -33%;
+    left: 36%;
+
+    height:180%;
+    width: 10%;
+    
+   
+
+    
+}
+
+.bottone3>img {
+    
+    height:90%;
+    width:90%;
+}
+
+
+
+
+.bottone4 {
+   
+
+    background-image: url("cestino3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size:90%, 90%;
+    
+   border-radius:30px;
+   
+   
+    border:none ;
+
+
+    cursor: pointer;
+    position: absolute;
+
+    bottom: -35%;
+    left: 53%;
+
+    height:180%;
+    width: 10%;
+    
+   
+
+    
+}
+
+.bottone4>img {
+    height:90%;
+    width:90%;
+}
+
+
+
+
+
+
+.bottone5 {
+   
+
+    background-image: url("power.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size:90%, 90%;
+    
+   border-radius:5px;
+   
+   
+    border:none ;
+
+
+    cursor: pointer;
+    position: absolute;
+
+    bottom: -39%;
+    left: 70%;
+
+    height:180%;
+    width: 10%;
+    
+   
+
+    
+}
+
+.bottone5>img {
+    border-radius:30px;
+    height:90%;
+    width:90%;
+}
+
+
+
+
+
+.bottone6 {
+   
+
+    background-image: url("galleria2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    background-size:90%, 90%;
+    
+   border-radius:5px;
+   
+   
+    border:none ;
+
+
+    cursor: pointer;
+    position: absolute;
+
+    bottom: -39%;
+    left: 85%;
+
+    height:180%;
+    width: 10%;
+    
+   
+
+    
+}
+
+.bottone6>img {
+    border-radius:30px;
+    height:90%;
+    width:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.game {
+    position: relative;
+    top: 30%;
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url("trex.png");
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    /*Posizione inizialle dino */
+}
+
+/*Funzione che ci permette il salto */
+.jump {
+    animation: jump 0.3s linear;
+}
+
+
+
+#maxsize{
+    position: absolute;
+    width: 100%;
+    height: 101%;
+    margin: auto;
+ 
+  
+    top: 0;
+    left: 0;
+
+    border-radius: 10px;
+    /*Posizionamento del contenitore(Ascisa e ordinata )-->(x,y) */
+
+    cursor: pointer;
+    overflow: hidden;
+    /*Nasconde tutto quello che esce dal contenitore */
+
+}
+
+
+
+
+
+/*Animazione salto dino */
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    30% {
+        top: 130px;
+    }
+
+    50% {
+        top: 70px;
+    }
+
+    80% {
+        top: 130px;
+    }
+
+    100% {
+        top: 150px;
+    }
+}
+
+
+
+
+#cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    /*Posizione inialze del catus */
+    top: 110px;
+    left: 580px;
+
+    background-image: url("cactus.png");
+    background-size: 20px 40px;
+
+    animation: block 1s infinite linear;
+}
+
+/*Animazione del catus che si muove andando a giocare con la left */
+@keyframes block {
+    0% {
+        left: 580px;
+    }
+
+    100% {
+        left: -15px;
+    }
+}
+
+
+
+
+.file1 {
+    width: 70px;
+    height: 70px;
+    background-image: url("icona.png");
+    background-size: 70px 70px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    /*Posizione inizialle dino */
+}
+
+
+.text1{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 50px;
+    left: 26px;
+
+}
+
+
+
+.file2 {
+    width: 70px;
+    height: 70px;
+    background-image: url("icona.png");
+    background-size: 70px 70px;
+    position: relative;
+    top: -100px;
+    left: 230px;
+    /*Posizione inizialle dino */
+}
+
+
+.text2{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -90px;
+    left: 250px;
+
+}
+
+.file3 {
+    width: 70px;
+    height: 70px;
+    background-image: url("icona.png");
+    background-size: 70px 70px;
+    position: relative;
+    top: -240px;
+    left: 430px;
+    /*Posizione inizialle dino */
+}
+
+
+.text3{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -232px;
+    left: 450px;
+
+}
+
+
+.file4 {
+    width: 70px;
+    height: 70px;
+    background-image: url("fileword.jpg");
+    background-size: 70px 70px;
+    position: relative;
+    top: -190px;
+    left: 20px;
+    /*Posizione inizialle dino */
+}
+
+
+
+.text4{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -170px;
+    left: 40px;
+
+}
+
+
+
+
+.file5 {
+    width: 70px;
+    height: 70px;
+    background-image: url("filepoint.jpg");
+    background-size: 70px 70px;
+    position: relative;
+    top: -330px;
+    left: 230px;
+    /*Posizione inizialle dino */
+}
+
+
+.text5{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -310px;
+    left: 250px;
+
+}
+
+
+
+
+.file6 {
+    width: 70px;
+    height: 70px;
+    background-image: url("fileword.jpg");
+    background-size: 70px 70px;
+    position: relative;
+    top: -470px;
+    left: 430px;
+    /*Posizione inizialle dino */
+}
+
+
+
+.text6{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -450px;
+    left: 450px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.file10 {
+    width: 70px;
+    height: 70px;
+    background-image: url("icona.png");
+    background-size: 70px 70px;
+    position: relative;
+    top: -799px;
+    left: 630px;
+    /*Posizione inizialle dino */
+}
+
+
+.text10{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -790px;
+    left: 640px;
+
+}
+
+
+
+
+.file11 {
+    width: 70px;
+    height: 70px;
+    background-image: url("fileexel.png");
+    background-size: 70px 70px;
+    position: relative;
+    top: -750px;
+    left: 630px;
+    /*Posizione inizialle dino */
+}
+
+.text11{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -730px;
+    left: 640px;
+
+}
+
+
+
+
+.foto1 {
+    
+    width: 200%;
+    height:180%;
+
+    background-image: url("foto1.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+
+    top: -45%;
+    left: -50%;
+
+
+
+    border-radius: 10%;
+    /*Posizione inizialle dino */
+}
+
+
+.foto2 {
+    width: 200%;
+    height:180%;
+
+    background-image: url("foto2.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+
+    top: -45%;
+    left: -50%;
+
+    border-radius: 10%;
+
+}
+
+
+
+.foto3 {
+    width: 200%;
+    height:180%;
+
+    background-image: url("foto3.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+
+    top: -45%;
+    left: -50%;
+
+    border-radius: 10%;
+}
+
+
+
+.foto4 {
+    width: 200%;
+    height:180%;
+
+    background-image: url("foto4.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+
+    top: -45%;
+    left: -50%;
+
+    border-radius: 10%;
+}
+
+
+.foto5 {
+    width: 200%;
+    height:180%;
+
+    background-image: url("foto5.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+
+    top: -45%;
+    left: -50%;
+
+    border-radius: 10%;
+}
+
+
+
+
+
+.pulsante{
+    height:30px;
+    width:50px;
+    position: absolute;
+    bottom:2%;
+    left:50%;
+}
